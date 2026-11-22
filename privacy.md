@@ -107,8 +107,8 @@ target price you choose.
 
   Nothing else from your collection is sent: not your other cards, their
   conditions or the prices you paid, and never your photos or your age.
-- **Why:** so our server can check your price alerts after each daily price
-  update and send you a notification when one is reached, even when the app
+- **Why:** so our server can check your price alerts after each price
+  update (twice a day) and send you a notification when one is reached, even when the app
   is closed. If you have more than one price alert, our server asks
   **RevenueCat** whether you have Pro, using your anonymous user ID, because
   without Pro only your oldest price alert is checked.
@@ -126,8 +126,7 @@ target price you choose.
   it on the phone deletes it on the server too); one you switch off is kept,
   switched off, until you delete it. Your push token and anonymous user ID are
   kept until you use **Delete my alert data**; a push token is also deleted
-  when Expo tells us it no longer works. Data of a phone our server has not
-  seen for 13 months is deleted.
+  when Expo tells us it no longer works.
 - **How to delete it:** **Settings › Delete my alert data** deletes your
   price alerts, your push tokens and your anonymous user from our server. Your
   price alerts stay on your phone; if you save one again, the app creates a
@@ -219,9 +218,9 @@ are based in Israel.
   leave a temporary copy in the app's cache on your phone until iOS clears it.
 - **Our server:** price alerts until you delete them in the app; your push
   token and anonymous user ID until you use **Delete my alert data** (a push
-  token also goes when Expo reports it no longer works); everything of a phone
-  not seen for 13 months. Deleted data leaves our backups
-  within 7 days. Server request logs: up to 7 days.
+  token also goes when Expo reports it no longer works). Deleted data can stay
+  in our hosting provider's backups until they are replaced, for up to 7 days.
+  Server request logs: up to 7 days.
   See "Price alerts and notifications" in section 2.
 
 ## 8. Deleting your data

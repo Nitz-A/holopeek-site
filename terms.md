@@ -10,7 +10,7 @@ permalink: /terms/
 These terms are an agreement between you and Nitzan Aroesty, an individual
 developer ("we", "us"), about your use of the Holopeek mobile app (the
 "App"). By downloading or using the App, you agree to these terms and to our
-Privacy Policy (https://holopeek.com/privacy). If you do not agree, do not use the App.
+Privacy Policy (https://holopeek.com/privacy/). If you do not agree, do not use the App.
 
 Nothing in these terms takes away rights you have under consumer protection
 laws that cannot be waived.
@@ -42,8 +42,8 @@ expressly give you.
 
 ## 3. Free and Pro features
 
-Scanning, recognition and a basic collection are free. Some features are
-offered only with **Holopeek Pro**, through a subscription. The App and
+Scanning, recognition and your collection are free, without limits. Some features are
+offered only with **Pro**, through a subscription. The App and
 its store listing show which features are included. We may add, change or remove features over time. If we remove a core
 Pro feature you paid for, you may contact us and we will act fairly, including
 following the store's refund process where appropriate.
@@ -103,9 +103,9 @@ unless the store listing says otherwise.
   sell, a quote, or an appraisal for insurance, tax or legal purposes.
 - **Nothing in the App is financial or investment advice.** Trading cards can
   lose value. Do your own research before buying, selling or trading. Price
-  history, gains and alerts are information only.
+  history, gains and price alerts are information only.
 - Price alerts depend on third-party data and on
-  notification delivery. An alert may be late, missed or sent in error. Do not
+  notification delivery. A price alert may be late, missed or sent in error. Do not
   rely on alerts for time-sensitive decisions.
 
 ## 6. Card recognition can be wrong
