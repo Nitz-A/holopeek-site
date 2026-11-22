@@ -97,7 +97,9 @@ target price you choose.
 - **What is sent to our server, and only once you save your first price
   alert:**
   - an **anonymous user ID**: a random identifier our server creates for
-    your phone. It has no name, email, phone number or password behind it;
+    your phone. It has no name, email, phone number or password behind it.
+    With it, the app tells our server the day it was last opened (at most
+    once a day);
   - your phone's **push token**: an identifier Apple
     issues so notifications can reach your phone, with the kind of phone and when the
     app last checked in;
@@ -126,7 +128,9 @@ target price you choose.
   it on the phone deletes it on the server too); one you switch off is kept,
   switched off, until you delete it. Your push token and anonymous user ID are
   kept until you use **Delete my alert data**; a push token is also deleted
-  when Expo tells us it no longer works.
+  when Expo tells us it no longer works. If the app has not been opened for
+  13 months, our server deletes your anonymous user with your push tokens and
+  price alerts.
 - **How to delete it:** **Settings › Delete my alert data** deletes your
   price alerts, your push tokens and your anonymous user from our server. Your
   price alerts stay on your phone; if you save one again, the app creates a
@@ -218,7 +222,8 @@ are based in Israel.
   leave a temporary copy in the app's cache on your phone until iOS clears it.
 - **Our server:** price alerts until you delete them in the app; your push
   token and anonymous user ID until you use **Delete my alert data** (a push
-  token also goes when Expo reports it no longer works). Deleted data can stay
+  token also goes when Expo reports it no longer works); all of it once the
+  app has not been opened for 13 months. Deleted data can stay
   in our hosting provider's backups until they are replaced, for up to 7 days.
   Server request logs: up to 7 days.
   See "Price alerts and notifications" in section 2.
